@@ -1,0 +1,2 @@
+D:\SolidStateFile\CProject1\2020.07.03\TCPClientUI\Debug\TCPClientUI.exe
+D:\SolidStateFile\CProject1\2020.07.03\TCPClientUI\Debug\TCPClientUI.pdb
