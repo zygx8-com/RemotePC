@@ -3,12 +3,6 @@
 //
 
 
-
-
-
-
-
-
 #include "pch.h"
 //#include "framework.h"
 #include "TCPClientUI.h"
@@ -53,7 +47,12 @@ int nRetc = 0;
 PROCESS_INFORMATION pi = { 0 };
 STARTUPINFO si = { 0 };
 
-#pragma comment(lib,"../bin/KeyHook.lib")
+//告诉程序MySetHook的使用位置
+#ifdef _DEBUG
+#pragma comment(lib,"../../bin/RemotePC/Debug/KeyHook.lib")
+#else
+#pragma comment(lib,"../../bin/RemotePC/Release/KeyHook.lib")
+#endif
 
 BOOL MySetHook(HWND hWnd);
 

@@ -1,9 +1,0 @@
-﻿  pch.cpp
-  TCPClientUI.cpp
-  TCPClientUIDlg.cpp
-D:\SolidStateFile\CProject1\2020.07.06\TCPClientUI\TCPClientUIDlg.cpp(356,30): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-D:\SolidStateFile\CProject1\2020.07.06\TCPClientUI\TCPClientUIDlg.cpp(368,30): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-D:\SolidStateFile\CProject1\2020.07.06\TCPClientUI\TCPClientUIDlg.cpp(489,3): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
-D:\SolidStateFile\CProject1\2020.07.06\TCPClientUI\TCPClientUIDlg.cpp(653,33): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
-  正在生成代码...
-  TCPClientUI.vcxproj -> D:\SolidStateFile\CProject1\2020.07.06\TCPClientUI\..\bin\TCPClientUI.exe
